@@ -1,13 +1,26 @@
 from fastapi import FastAPI
-from mangum import Mangum
+from pydantic import BaseModel
+
+from rag.retriever import retrieve
 
 app = FastAPI(title="Portfolio Chatbot API")
 
-@app.post("/chat")
-def chat(req: dict):
-    return {
-        "answer": "Backend is live.",
-        "citations": []
-    }
+class ChatRequest(BaseModel):
+    message: str
 
-handler = Mangum(app)
+class ChatResponse(BaseModel):
+    query: str
+    context: list[str]
+
+@app.get("/")
+def health():
+    return {"status": "ok"}
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(req: ChatRequest):
+    chunks = retrieve(req.message, k=3)
+
+    return {
+        "query": req.message,
+        "context": chunks
+    }

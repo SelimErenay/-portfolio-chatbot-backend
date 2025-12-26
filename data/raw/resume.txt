@@ -1,0 +1,68 @@
+Selim Enes Erenay
+Ames, Iowa, US | +1 (515) 817-4721 | erenays@iastate.edu
+GitHub: https://github.com/Selim-Erenay
+LinkedIn: https://linkedin.com/in/selim-erenay-b24bb5239/
+
+EDUCATION
+Bachelor of Science, Computer Science, Iowa State University
+May 2026 Expected
+GPA: 3.36 | Honors: Top 2% Freshmen in Engineering
+Relevant Coursework: Data Structures & Algorithms, C/C++ Programming,
+Construction of User Interfaces, Object-Oriented Programming, Android App
+Development, Database Management Systems, Computer Architecture, Discrete Math,
+Calculus II, Linear Algebra
+
+EXPERIENCE
+
+Engineering Intern, Intellica Technologies – Seattle, WA
+May 2025 – Aug 2025
+• Built real-time monitoring dashboards using Prometheus and Grafana, analyzing
+  system metrics (CPU, memory, disk I/O) for over 40 IoT gateway devices in a Wi-Fi
+  test lab.
+• Configured Node Exporter to collect system-level metrics and exposed them via
+  Prometheus for analysis and alerting.
+• Developed custom log pipelines using Filebeat and Logstash, sending structured
+  logs into Elasticsearch and visualizing insights with Kibana.
+• Designed and tested fault scenarios to evaluate system performance under load,
+  improving observability and debugging workflows.
+• Automated metric extraction and report generation using Python and FastAPI for
+  engineering review.
+
+Backend Developer, PIA Technologies
+Jan 2024 – May 2024
+• Collaborated with a team of six to develop Career Hub, a web platform
+  streamlining the hiring process for both job applicants and companies.
+• Built the backend using Java Spring Boot and MongoDB, ensuring efficient data
+  storage and retrieval for resumes, job postings, and applicant information.
+• Developed a centralized system for applicants to upload resumes/CVs once,
+  enabling seamless application submission without repetitive uploads.
+• Designed features for companies to create job postings, add detailed
+  requirements, and filter applicants by qualifications to optimize the hiring
+  process.
+• Implemented advanced filtering mechanisms allowing HR teams to identify top
+  candidates who meet job criteria.
+
+Data Scientist, UFC (Ultimate Fighting Championship) Betting Analysis Project
+Jan 2025 – May 2025
+• Analyzed 6,478 UFC fights to determine the win likelihood of favored fighters
+  using Kaggle data.
+• Cleaned and processed data, managing missing values, outliers, and duplicates
+  for accurate analysis.
+• Created visualizations to explore betting odds and outcomes, identifying
+  patterns and insights.
+• Delivered statistical findings to support data-driven betting decisions in
+  sports analytics.
+• Developed and implemented the analysis using Python, leveraging libraries like
+  Pandas, NumPy, and Matplotlib for data processing and visualization.
+
+Laboratory Researcher, SPACECO – Funded by NASA
+Jan 2023 – Dec 2023
+• Developed a monitoring system for oxygen and pressure in space welding
+  experiments, enabling accurate data collection using Raspberry Pi and Python.
+• Visualized experiment data with MATLAB, allowing the team to analyze results
+  effectively and assess tool performance in simulated space environments.
+
+SKILLS
+Programming Languages: C, C++, Java, Python, JavaScript, HTML, CSS, MATLAB
+Frameworks / Libraries: React, Next.js, Tailwind CSS
+Technologies: Git, MongoDB, Spring Boot, MySQL

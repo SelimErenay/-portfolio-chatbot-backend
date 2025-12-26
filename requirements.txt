@@ -1,3 +1,6 @@
 fastapi
 uvicorn
 mangum
+
+sentence-transformers
+faiss-cpu
